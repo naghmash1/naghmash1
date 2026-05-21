@@ -76,16 +76,3 @@ google scholar  scholar.google.com
 researchgate    researchgate.net
 github          github.com/naghmash1
 ```
-
-&nbsp;
-
-## `$ exit`
-
-```bash
-naghmash@tsinghua-sigs:~$ exit
-
-# building AI systems that think, adapt, and endure.
-# last edited by hand, not by autogen.
-
-Connection to tsinghua-sigs closed.
-```
