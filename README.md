@@ -72,7 +72,7 @@ naghmash@tsinghua-sigs:~$ cat ~/.contact
 
 mail            naghmash@cybergen.ai
 linkedin        linkedin.com/in/naghmash
-google scholar  scholar.google.com
-researchgate    researchgate.net
+google scholar  scholar.google.com/citations?hl=en&user=_u6Tid8AAAAJ
+researchgate    researchgate.net/profile/Naghmash-Ali
 github          github.com/naghmash1
 ```
