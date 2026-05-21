@@ -43,7 +43,7 @@ open_to:    research collaborations, OSS, and meaningful problems
 
 #### Languages
 <p>
-<img src="https://skillicons.dev/icons?i=python,typescript,javascript,go,bash,cpp&perline=3"/>
+<img src="https://skillicons.dev/icons?i=python,matlab,r,java,c,cpp,typescript,javascript,go,bash&perline=5"/>
 </p>
 
 </td>
