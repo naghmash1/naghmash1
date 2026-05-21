@@ -40,36 +40,47 @@
 
     <!-- ASCII portrait -->
     <g fill="#fb923c">
-      <text x="0" y="0" class="ascii" xml:space="preserve">                       ,!;;,,:;|:</text>
-      <text x="0" y="14" class="ascii" xml:space="preserve">                      j!!;:;;;;;jMr</text>
-      <text x="0" y="28" class="ascii" xml:space="preserve">                     r:....,,;!;;k#%</text>
-      <text x="0" y="42" class="ascii" xml:space="preserve">                    :*..  ..,;!||r@#!</text>
-      <text x="0" y="56" class="ascii" xml:space="preserve">                     ;,:,.,;*|!|jr@@</text>
-      <text x="0" y="70" class="ascii" xml:space="preserve">                     ;jwW!!W%MMwkjWw</text>
-      <text x="0" y="84" class="ascii" xml:space="preserve">                     :;!|.:k|*j|*rmm</text>
-      <text x="0" y="98" class="ascii" xml:space="preserve">                     .. . ,jj,,|jkr*</text>
-      <text x="0" y="112" class="ascii" xml:space="preserve">                      :kmmm@W%r*rk|</text>
-      <text x="0" y="126" class="ascii" xml:space="preserve">                      ;r*jjrrrkrmw|</text>
-      <text x="0" y="140" class="ascii" xml:space="preserve">                       j!:;!*kw%MwrWm</text>
-      <text x="0" y="154" class="ascii" xml:space="preserve">                      j%mmk%WW@@MkkM@*</text>
-      <text x="0" y="168" class="ascii" xml:space="preserve">                . .|mm%wjrmwMM%mjmM%MMw!</text>
-      <text x="0" y="182" class="ascii" xml:space="preserve">            ,*k%Mw%wwwwMw|:;!;!*w%m%@Mw%%r;,</text>
-      <text x="0" y="196" class="ascii" xml:space="preserve">          ;m%wwMw%wwwWWWM%j:;r%@#@WW@%w%km%mk*</text>
-      <text x="0" y="210" class="ascii" xml:space="preserve">         |mmmmm%%mmMwwwmwwWW@@W@WW@MMM%%mMmwMM%|</text>
-      <text x="0" y="224" class="ascii" xml:space="preserve">        *mkkwwwmkkmM%wmkmwwm%w%M%%ww%w%w%%MW%wwM|</text>
-      <text x="0" y="238" class="ascii" xml:space="preserve">       ;mmwmmwwrkmw%wwww%www%%%%%wwwwww%%M%wwwwMj</text>
-      <text x="0" y="252" class="ascii" xml:space="preserve">       wkkw%M%mkkkmmmmmM%mmM%%w%mmwmm%Mwmmmmw%%W%</text>
-      <text x="0" y="266" class="ascii" xml:space="preserve">      jmmmmwWMmkrrkkkkmWmrm%mmmwmmmmmWwkkmww%MM@k</text>
-      <text x="0" y="280" class="ascii" xml:space="preserve">     !wmmmwwMMmkkkkmmk%Mmm%mkmmkmmmk%Wkmmw%MMWW@j</text>
-      <text x="0" y="294" class="ascii" xml:space="preserve">    .!!*rw%MWWwmmmmmmmWMww%mmmkmmwww#wkmmmww%MMWw</text>
-      <text x="0" y="308" class="ascii" xml:space="preserve">    .   .:j%##wwmmwM@%@Mw%Mww%w%w%%@@mmmmwww%%%W*</text>
-      <text x="0" y="322" class="ascii" xml:space="preserve">   .. .,,.,;k%%WWW#@wM@ww%%kkw%MWW@#wrkkmww%MMWW;</text>
-      <text x="0" y="336" class="ascii" xml:space="preserve">   :,.       .:;;||!!*!:::,. ,;!||j*   .,:!jmMWw</text>
-      <text x="0" y="350" class="ascii" xml:space="preserve">   ;:,..                    .,;;;|*,  .,,::;|jMj</text>
+      <text x="0" y="0" class="ascii" xml:space="preserve">                        ;j|!!;,.,::;*k*</text>
+      <text x="0" y="14" class="ascii" xml:space="preserve">                      *kj|!;;:  .:;;;|mw|,</text>
+      <text x="0" y="28" class="ascii" xml:space="preserve">                     Mm||!!::!!||!!!;!|r%M%:</text>
+      <text x="0" y="42" class="ascii" xml:space="preserve">                    mk,;!!!;;!**!;!!!;;;jwW#j</text>
+      <text x="0" y="56" class="ascii" xml:space="preserve">                   jm,:::::,,,::,:;;;;:,|m@##r</text>
+      <text x="0" y="70" class="ascii" xml:space="preserve">                  ,W:::,,,,,,::,,:;!!!!|!j@#@#!</text>
+      <text x="0" y="84" class="ascii" xml:space="preserve">                  w*::,.  ...,,,:;!|||**!|%####.</text>
+      <text x="0" y="98" class="ascii" xml:space="preserve">                 .%;;:,,. ...,,::;!|!||||*m####*</text>
+      <text x="0" y="112" class="ascii" xml:space="preserve">                 ;w:;,,,....,,,::;!!!|||*jm####|</text>
+      <text x="0" y="126" class="ascii" xml:space="preserve">                 ,k:::,,..,,,,,::;;;!||*jrm####!</text>
+      <text x="0" y="140" class="ascii" xml:space="preserve">                  *:,...,  ..,,;;::;!!*jjrm####</text>
+      <text x="0" y="154" class="ascii" xml:space="preserve">                  ,::!;!;::,!|!rmwkrrjjrrrr@##k</text>
+      <text x="0" y="168" class="ascii" xml:space="preserve">                  .||*mM@Wk:|mM##@MMwmmwkkrM#Wj</text>
+      <text x="0" y="182" class="ascii" xml:space="preserve">                  .**wm@@Wm.:k@Wkj@@@Wwwmkr%#rM</text>
+      <text x="0" y="196" class="ascii" xml:space="preserve">                  ,;*mjmmm| ,kMkmkw%%wkjjrrm#%*</text>
+      <text x="0" y="210" class="ascii" xml:space="preserve">                  ,;:;|||!: :rmj*jjj*|||*rrww%r</text>
+      <text x="0" y="224" class="ascii" xml:space="preserve">                   ;,.,,,:, ,|kr!!!;;!|*rkkkrmr</text>
+      <text x="0" y="238" class="ascii" xml:space="preserve">                   :,....:. .:!jj:::;|*jrmmrrj*</text>
+      <text x="0" y="252" class="ascii" xml:space="preserve">                   ;:..,;,. .;*jwj::;!*rrkmrrj|</text>
+      <text x="0" y="266" class="ascii" xml:space="preserve">                   ::,,!:!j!*M##%rj!!|jrrkkk*,</text>
+      <text x="0" y="280" class="ascii" xml:space="preserve">                   :::jwk%@#WW#@@WWMj*jrkkkm.</text>
+      <text x="0" y="294" class="ascii" xml:space="preserve">                    !;W##MwmjkM%M#@#w*rkmkmm</text>
+      <text x="0" y="308" class="ascii" xml:space="preserve">                    !!kkrrr*jjkwwr*krjkmmmwm</text>
+      <text x="0" y="322" class="ascii" xml:space="preserve">                     *!!:;*jrrkr||*rrkmww%wk:</text>
+      <text x="0" y="336" class="ascii" xml:space="preserve">                     :*|!:;|**|!!*rkwww%MMwr%#M*</text>
+      <text x="0" y="350" class="ascii" xml:space="preserve">                      *r|;:,.,;!*rm%M%MWWMmkrW##k</text>
+      <text x="0" y="364" class="ascii" xml:space="preserve">                     .Mwmr*!;!*m%MWWWW@@W%mkrm#WM</text>
+      <text x="0" y="378" class="ascii" xml:space="preserve">                     w@mw%%%%%W@@@@@@@@WMwmrkW@MWr</text>
+      <text x="0" y="392" class="ascii" xml:space="preserve">                    rMWmkwmw%MMMWW@@@@@MwmkkM@MMMW;</text>
     </g>
 
+    <!-- Now / live projects -->
+    <text x="0" y="440" class="mono muted" font-size="11" letter-spacing="2.5">─ NOW · LIVE PROJECTS ─────────────────────</text>
+    <text x="0" y="470" class="mono"><tspan fill="#34d399" font-weight="700">[active]</tspan>  <tspan class="ink">three-layer hierarchical control  ·  MILP + LP + NSFTSMC</tspan></text>
+    <text x="0" y="492" class="mono"><tspan fill="#34d399" font-weight="700">[active]</tspan>  <tspan class="ink">llm-based multi-agent energy negotiation</tspan></text>
+    <text x="0" y="514" class="mono"><tspan fill="#34d399" font-weight="700">[active]</tspan>  <tspan class="ink">agentic AI resilience modeling</tspan></text>
+    <text x="0" y="536" class="mono"><tspan fill="#fbbf24" font-weight="700">[draft ]</tspan>  <tspan class="ink">offshore AI compute  ·  vol. 02 of AI × Energy series</tspan></text>
+    <text x="0" y="558" class="mono"><tspan class="muted" font-weight="700">[paused]</tspan>  <tspan class="muted">homegrown vector index in rust — wait, why</tspan></text>
+
     <!-- Signature line -->
-    <g transform="translate(0, 388)">
+    <g transform="translate(0, 582)">
       <text x="0" y="0" class="ascii" fill="#fb923c" font-weight="700" xml:space="preserve">  N · A   ⟨ dr. naghmash ali, phd ⟩</text>
       <text x="0" y="22" class="mono muted" font-size="11">  research scientist · tsinghua sigs · shenzhen</text>
     </g>
