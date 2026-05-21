@@ -1,169 +1,116 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-  <img alt="Dr. Naghmash Ali — Research Scientist, Educator, Entrepreneur" src="./assets/header-light.svg" width="100%">
+  <img alt="Dr. Naghmash Ali — Research Scientist · Educator · Entrepreneur" src="./assets/header-light.svg" width="100%">
 </picture>
 
 &nbsp;
 
-## NAME
+## §&nbsp;01&nbsp;&nbsp;·&nbsp;&nbsp;Brief
 
-`dr-naghmash-ali` — research scientist at the frontier of autonomous AI systems, nonlinear control theory, and energy-aware AI infrastructure.
+I work where rigorous mathematical control theory meets real-world AI deployment — from **marine-renewable offshore datacenters** to **agentic LLM systems** that reason, negotiate, and act autonomously. Research Scientist at **Tsinghua University (SIGS, Shenzhen)**, Chief Data Scientist at **CyberGen Inc.**, and Co-founder & CAIO of **Qubit Dynamics**. 30+ SCI publications, h-index 17, 1,000+ citations.
 
-## SYNOPSIS
+> **I don't just study AI — I build it, deploy it, teach it, and publish it.**
 
-```
-naghmash [--research] [--build] [--teach] [--publish] <problem>
-```
+&nbsp;
 
-## DESCRIPTION
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/research-domains-dark.svg">
+  <img alt="Research domains: Autonomous AI, Energy Systems, Nonlinear Control, Applied AI" src="./assets/research-domains-light.svg" width="100%">
+</picture>
 
-I work where rigorous mathematical control theory meets real-world AI
-deployment — from marine-renewable offshore datacenters to agentic LLM
-systems that reason, negotiate, and act autonomously.
+&nbsp;
 
-Research Scientist at **Tsinghua University (SIGS, Shenzhen)**. Chief Data
-Scientist at **CyberGen Inc.** Co-founder & CAIO of **Qubit Dynamics**.
-Across 30+ SCI publications, an h-index of 17, and 1,000+ citations, my
-work has appeared in *Energy*, *Applied Energy*, and the *CSEE Journal
-of Power and Energy Systems*.
+## §&nbsp;03&nbsp;&nbsp;·&nbsp;&nbsp;Tech Stack
 
-> *I don't just study AI — I build it, deploy it, teach it, publish it.*
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <img alt="Tech stack chip grid" src="./assets/stack-light.svg" width="100%">
+</picture>
 
-<sub align="center">·  ·  ·</sub>
+&nbsp;
 
-## RESEARCH
+## §&nbsp;04&nbsp;&nbsp;·&nbsp;&nbsp;Publications
 
-```
-autonomous ai     multi-agent llm negotiation and orchestration
-                  agentic infrastructure (mcp tool use, memory, planning)
-                  llm-driven decision-making for real-time energy systems
-                  ai resilience, self-healing systems, autonomous recovery
-
-energy systems    offshore ai datacenter microgrids on marine renewables
-                  dc / ac microgrid & nanogrid energy management
-                  iot utility monitoring at scale (lorawan, edge compute)
-                  hierarchical optimization: milp + lp for real-time dispatch
-
-nonlinear         sliding mode control (smc, ftsmc, nsftsmc)
-control           finite-time and fixed-time convergence controllers
-                  lyapunov-based stability for nonlinear dynamical systems
-                  adaptive & robust control under uncertainty + disturbance
-                  backstepping, feedback linearization, passivity-based control
-                  model predictive control (mpc) for constrained systems
-
-applied ai        xai for power-system fault detection + predictive maintenance
-                  computer-vision pipelines for industrial safety
-                  gpu-accelerated inference for real-time applications
-                  ai readiness frameworks for enterprise and government
-```
-
-<sub align="center">·  ·  ·</sub>
-
-## PUBLICATIONS
-
-<table>
+<table width="100%">
   <tr>
-    <td align="center" width="33%"><sub>SCI&nbsp;PUBLICATIONS</sub><br/><b>30+</b></td>
-    <td align="center" width="33%"><sub>H-INDEX</sub><br/><b>17</b></td>
-    <td align="center" width="33%"><sub>CITATIONS</sub><br/><b>1,000+</b></td>
+    <td align="center" width="25%">
+      <sub><b>SCI PAPERS</b></sub><br/>
+      <span style="font-size:32px"><b>30+</b></span>
+    </td>
+    <td align="center" width="25%">
+      <sub><b>H-INDEX</b></sub><br/>
+      <span style="font-size:32px"><b>17</b></span>
+    </td>
+    <td align="center" width="25%">
+      <sub><b>CITATIONS</b></sub><br/>
+      <span style="font-size:32px"><b>1,000+</b></span>
+    </td>
+    <td align="center" width="25%">
+      <sub><b>STARTUPS</b></sub><br/>
+      <span style="font-size:32px"><b>3</b></span>
+    </td>
   </tr>
 </table>
 
-```
-journals        csee journal of power and energy systems
-                energy
-                applied energy
-                journal of energy storage
-                ieee transactions (various)
+**Journals.** *Energy* · *Applied Energy* · *CSEE Journal of Power and Energy Systems* · *Journal of Energy Storage* · *IEEE Transactions* (various).
 
-active themes   three-layer hierarchical control (milp + lp + nsftsmc)
-                for offshore ai datacenters
-                llm-based multi-agent energy negotiation
-                nonlinear robust control for dc microgrids under
-                stochastic disturbances
-                agentic ai resilience modeling
+**Active research themes.**
+- Three-layer hierarchical control (**MILP + LP + NSFTSMC**) for offshore AI datacenters
+- **LLM-based multi-agent** energy negotiation
+- Nonlinear robust control for DC microgrids under stochastic disturbances
+- **Agentic AI** resilience modeling
 
-collaborators   dr. xinwei shen (tsinghua university)
-                dr. hammad armghan
-                cybergen research group
-                qubit dynamics ai lab
-```
+**Key collaborators.** Dr. Xinwei Shen (Tsinghua University) · Dr. Hammad Armghan · CyberGen Research Group · Qubit Dynamics AI Lab.
 
-<sub align="center">·  ·  ·</sub>
+&nbsp;
 
-## STACK
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/affiliations-dark.svg">
+  <img alt="Global affiliations: Tsinghua SIGS, CyberGen, Qubit Dynamics, CyberGen Academy, Indian River State College" src="./assets/affiliations-light.svg" width="100%">
+</picture>
 
-```
-ai/ml         pytorch · tensorflow · hugging face · langchain
-              claude api · qwen · openai api · onnx
+&nbsp;
 
-agents        mcp (model context protocol) · claude code
-              n8n · multi-agent orchestration · rag pipelines
+## §&nbsp;06&nbsp;&nbsp;·&nbsp;&nbsp;White Papers
 
-vision        yolo · deepstream · opencv · vapoursynth
-hardware      nvidia l40 · rtx 4070 ti · jetson
+<table width="100%">
+  <tr>
+    <td valign="top" width="50%">
+      <sub><b>CYBERGEN  ·  AI × ENERGY  ·  3 VOL.</b></sub>
+      <ul>
+        <li><b>Vol. 1</b> — Autonomous AI Grids</li>
+        <li><b>Vol. 2</b> — Offshore AI Compute</li>
+        <li><b>Vol. 3</b> — Agentic AI Resilience</li>
+      </ul>
+    </td>
+    <td valign="top" width="50%">
+      <sub><b>EXECUTIVE  ·  STRATEGIC  ·  APPLIED</b></sub>
+      <ul>
+        <li>AI for Leadership — 5-Day Executive Course</li>
+        <li>AI Readiness Framework for Enterprise</li>
+        <li>Digital Twins for Industrial Infrastructure</li>
+        <li>AI Bus Routing &amp; Fleet Intelligence</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-control       matlab · simulink · milp · lp · mpc
-              nsftsmc · smc · lyapunov analysis
+&nbsp;
 
-backend       node.js · express · python (fastapi / flask)
-              pm2 · aws ec2 · docker · rest apis
+## §&nbsp;07&nbsp;&nbsp;·&nbsp;&nbsp;Impact
 
-frontend      next.js 14 · react · tailwindcss
+<table width="100%">
+  <tr>
+    <td valign="top" width="25%"><sub><b>🇨🇳 &nbsp; CHINA</b></sub><br/>Leading AI research at one of the world's top universities.</td>
+    <td valign="top" width="25%"><sub><b>🇵🇰 &nbsp; PAKISTAN</b></sub><br/>Building the local AI ecosystem via Qubit Dynamics and CyberGen Academy.</td>
+    <td valign="top" width="25%"><sub><b>🇺🇸 &nbsp; UNITED STATES</b></sub><br/>Teaching applied AI at Indian River State College, Florida.</td>
+    <td valign="top" width="25%"><sub><b>🌐 &nbsp; ADVISORY</b></sub><br/>AI strategy for government, energy, and transport across MENA &amp; South Asia.</td>
+  </tr>
+</table>
 
-data          mongodb · postgresql · cloudinary · aws s3
+&nbsp;
 
-iot           milesight lorawan · edge ai · nvidia jetson
-
-docs          latex · tikz · overleaf · github · notion
-```
-
-<sub align="center">·  ·  ·</sub>
-
-## AFFILIATIONS
-
-```
-role                                organization                   location
-─────────────────────────────────   ────────────────────────────   ────────────────
-research scientist                  tsinghua university (sigs)     shenzhen, cn
-chief data scientist                cybergen inc.                  shenzhen, cn
-co-founder & chief ai officer       qubit dynamics                 faisalabad, pk
-lead ai instructor                  cybergen academy               lahore, pk
-ai instructor                       indian river state college     florida, usa
-```
-
-<sub align="center">·  ·  ·</sub>
-
-## WHITE PAPERS
-
-```
-cybergen "ai × energy" series
-  vol. 1   autonomous ai grids
-  vol. 2   offshore ai compute
-  vol. 3   agentic ai resilience
-
-executive & strategic reports
-  ai for leadership — 5-day executive course (cybergen)
-  ai readiness framework for enterprise
-  digital twins for industrial infrastructure
-  ai bus routing architecture & fleet intelligence
-```
-
-<sub align="center">·  ·  ·</sub>
-
-## IMPACT
-
-```
-cn    leading ai research at one of the world's top universities
-pk    building the local ai ecosystem via qubit dynamics + cybergen academy
-us    teaching applied ai at indian river state college (florida)
-adv   ai strategy for government, energy, and transport across
-      the middle east and south asia
-```
-
-<sub align="center">·  ·  ·</sub>
-
-## SEE ALSO
+## §&nbsp;08&nbsp;&nbsp;·&nbsp;&nbsp;Connect
 
 ```
 linkedin         linkedin.com/in/naghmash
@@ -173,16 +120,10 @@ mail             naghmash@cybergen.ai
 github           github.com/naghmash1
 ```
 
-## EXIT STATUS
-
-```
-0   shipped
-1   shipped, with notes for next time
-```
-
 ---
 
 <div align="center">
-  <sub><i>Building AI systems that think, adapt, and endure.</i></sub><br/>
+  <br/>
+  <i><b>Building AI systems that think, adapt, and endure.</b></i><br/>
   <sub>Last edited by hand, not by autogen.</sub>
 </div>

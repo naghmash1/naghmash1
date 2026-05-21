@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="1200" height="560" role="img" aria-label="Global affiliations">
+  <defs>
+    <style>
+      .serif { font-family: ui-serif, Georgia, "Times New Roman", serif; }
+      .mono  { font-family: ui-monospace, "SF Mono", Menlo, Consolas, "Courier New", monospace; }
+      .ink   { fill: #f3ead8; }
+      .muted { fill: #f3ead8; opacity: 0.58; }
+      .faint { fill: #f3ead8; opacity: 0.30; }
+      .land  { fill: #f3ead8; opacity: 0.14; }
+
+      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.9; transform: scale(1); }
+        50%      { opacity: 0.35; transform: scale(1.5); }
+      }
+
+      .arc { stroke-dasharray: 800; stroke-dashoffset: 800; animation: draw 2s ease-out 0.6s forwards; }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="560" fill="#0b0a08"/>
+
+  <text x="60" y="36" class="mono" fill="#f87171" font-size="12" letter-spacing="5" font-weight="700">§ 05</text>
+  <text x="98" y="36" class="mono muted" font-size="12" letter-spacing="5">GLOBAL AFFILIATIONS</text>
+  <line x1="60" y1="50" x2="1140" y2="50" stroke="#f3ead8" stroke-width="0.6" opacity="0.18"/>
+
+  <line x1="60"  y1="290" x2="1140" y2="290" stroke="#f3ead8" stroke-width="0.4" opacity="0.12" stroke-dasharray="2 6"/>
+  <line x1="60"  y1="240" x2="1140" y2="240" stroke="#f3ead8" stroke-width="0.3" opacity="0.08" stroke-dasharray="2 8"/>
+  <line x1="60"  y1="340" x2="1140" y2="340" stroke="#f3ead8" stroke-width="0.3" opacity="0.08" stroke-dasharray="2 8"/>
+  <text x="1140" y="287" class="mono faint" font-size="9" letter-spacing="1" text-anchor="end">0°  EQUATOR</text>
+
+  <g class="land">
+    <circle cx="240" cy="180" r="5"/><circle cx="260" cy="190" r="5"/><circle cx="280" cy="180" r="5"/>
+    <circle cx="220" cy="200" r="5"/><circle cx="240" cy="210" r="6"/><circle cx="260" cy="220" r="5"/>
+    <circle cx="280" cy="210" r="5"/><circle cx="300" cy="200" r="5"/><circle cx="320" cy="210" r="5"/>
+    <circle cx="200" cy="220" r="5"/><circle cx="220" cy="230" r="6"/><circle cx="240" cy="240" r="6"/>
+    <circle cx="260" cy="250" r="6"/><circle cx="280" cy="240" r="5"/><circle cx="300" cy="230" r="5"/>
+    <circle cx="320" cy="240" r="5"/><circle cx="340" cy="230" r="5"/>
+    <circle cx="220" cy="260" r="5"/><circle cx="240" cy="270" r="5"/><circle cx="260" cy="280" r="6"/>
+    <circle cx="280" cy="290" r="6"/><circle cx="300" cy="280" r="5"/><circle cx="320" cy="270" r="5"/>
+    <circle cx="280" cy="310" r="5"/><circle cx="300" cy="320" r="5"/>
+  </g>
+
+  <g class="land">
+    <circle cx="340" cy="340" r="5"/><circle cx="360" cy="350" r="6"/><circle cx="380" cy="360" r="6"/>
+    <circle cx="360" cy="380" r="5"/><circle cx="380" cy="390" r="5"/><circle cx="400" cy="380" r="5"/>
+    <circle cx="380" cy="410" r="5"/><circle cx="400" cy="420" r="5"/>
+    <circle cx="380" cy="440" r="4"/>
+  </g>
+
+  <g class="land">
+    <circle cx="600" cy="180" r="5"/><circle cx="620" cy="170" r="5"/><circle cx="640" cy="160" r="5"/>
+    <circle cx="660" cy="170" r="5"/><circle cx="680" cy="180" r="5"/>
+    <circle cx="600" cy="200" r="5"/><circle cx="620" cy="200" r="5"/><circle cx="640" cy="190" r="5"/>
+    <circle cx="660" cy="200" r="5"/><circle cx="680" cy="210" r="5"/>
+  </g>
+
+  <g class="land">
+    <circle cx="620" cy="240" r="5"/><circle cx="640" cy="250" r="6"/><circle cx="660" cy="240" r="6"/>
+    <circle cx="640" cy="270" r="6"/><circle cx="660" cy="280" r="6"/><circle cx="680" cy="270" r="5"/>
+    <circle cx="640" cy="300" r="6"/><circle cx="660" cy="310" r="6"/><circle cx="680" cy="300" r="5"/>
+    <circle cx="660" cy="330" r="5"/><circle cx="680" cy="340" r="5"/>
+    <circle cx="660" cy="360" r="5"/>
+  </g>
+
+  <g class="land">
+    <circle cx="720" cy="180" r="5"/><circle cx="740" cy="170" r="5"/><circle cx="760" cy="180" r="5"/>
+    <circle cx="780" cy="170" r="5"/><circle cx="800" cy="180" r="5"/><circle cx="820" cy="170" r="5"/>
+    <circle cx="840" cy="180" r="5"/><circle cx="860" cy="170" r="5"/><circle cx="880" cy="180" r="5"/>
+    <circle cx="720" cy="200" r="5"/><circle cx="740" cy="210" r="6"/><circle cx="760" cy="220" r="6"/>
+    <circle cx="780" cy="210" r="5"/><circle cx="800" cy="220" r="6"/><circle cx="820" cy="210" r="5"/>
+    <circle cx="840" cy="220" r="6"/><circle cx="860" cy="210" r="5"/><circle cx="880" cy="220" r="5"/>
+    <circle cx="900" cy="210" r="5"/>
+    <circle cx="740" cy="240" r="5"/><circle cx="760" cy="250" r="5"/><circle cx="780" cy="240" r="5"/>
+    <circle cx="800" cy="250" r="5"/><circle cx="820" cy="240" r="5"/><circle cx="840" cy="250" r="5"/>
+    <circle cx="860" cy="240" r="5"/>
+    <circle cx="780" cy="270" r="5"/><circle cx="800" cy="280" r="5"/><circle cx="820" cy="270" r="5"/>
+    <circle cx="840" cy="280" r="5"/>
+    <circle cx="800" cy="300" r="5"/><circle cx="820" cy="310" r="5"/>
+  </g>
+
+  <g class="land">
+    <circle cx="940" cy="360" r="5"/><circle cx="960" cy="370" r="6"/><circle cx="980" cy="360" r="5"/>
+    <circle cx="1000" cy="370" r="5"/>
+    <circle cx="960" cy="390" r="5"/><circle cx="980" cy="390" r="5"/>
+  </g>
+
+  <g transform="translate(855, 250)">
+    <circle r="22" fill="#f87171" opacity="0.20" class="pulse"/>
+    <circle r="14" fill="none" stroke="#f87171" stroke-width="1.5"/>
+    <circle r="6"  fill="#f87171"/>
+  </g>
+  <path class="arc" d="M 870 248 Q 980 200 1090 165" fill="none" stroke="#f87171" stroke-width="1.2" opacity="0.55"/>
+  <g transform="translate(960, 130)">
+    <text x="0" y="0"  class="mono" fill="#f87171" font-size="10" letter-spacing="3" font-weight="700">SHENZHEN, CN  ·  22.5° N</text>
+    <text x="0" y="20" class="serif ink" font-size="18" font-weight="500">Tsinghua University (SIGS)</text>
+    <text x="0" y="38" class="mono muted" font-size="12">Research Scientist</text>
+    <text x="0" y="60" class="serif ink" font-size="18" font-weight="500">CyberGen Inc.</text>
+    <text x="0" y="78" class="mono muted" font-size="12">Chief Data Scientist</text>
+  </g>
+
+  <g transform="translate(758, 215)">
+    <circle r="22" fill="#fb923c" opacity="0.20" class="pulse"/>
+    <circle r="14" fill="none" stroke="#fb923c" stroke-width="1.5"/>
+    <circle r="6"  fill="#fb923c"/>
+  </g>
+  <path class="arc" d="M 750 200 Q 660 130 540 100" fill="none" stroke="#fb923c" stroke-width="1.2" opacity="0.55"/>
+  <g transform="translate(310, 90)">
+    <text x="0" y="0"  class="mono" fill="#fb923c" font-size="10" letter-spacing="3" font-weight="700">FAISALABAD, PK  ·  31° N</text>
+    <text x="0" y="20" class="serif ink" font-size="18" font-weight="500">Qubit Dynamics</text>
+    <text x="0" y="38" class="mono muted" font-size="12">Co-founder &amp; Chief AI Officer</text>
+  </g>
+
+  <g transform="translate(770, 207)">
+    <circle r="20" fill="#22d3ee" opacity="0.20" class="pulse"/>
+    <circle r="12" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+    <circle r="5"  fill="#22d3ee"/>
+  </g>
+  <path class="arc" d="M 765 200 Q 700 380 600 470" fill="none" stroke="#22d3ee" stroke-width="1.2" opacity="0.55"/>
+  <g transform="translate(330, 460)">
+    <text x="0" y="0"  class="mono" fill="#22d3ee" font-size="10" letter-spacing="3" font-weight="700">LAHORE, PK  ·  31.5° N</text>
+    <text x="0" y="20" class="serif ink" font-size="18" font-weight="500">CyberGen Academy</text>
+    <text x="0" y="38" class="mono muted" font-size="12">Lead AI Instructor</text>
+  </g>
+
+  <g transform="translate(310, 260)">
+    <circle r="22" fill="#34d399" opacity="0.20" class="pulse"/>
+    <circle r="14" fill="none" stroke="#34d399" stroke-width="1.5"/>
+    <circle r="6"  fill="#34d399"/>
+  </g>
+  <path class="arc" d="M 322 268 Q 540 420 760 480" fill="none" stroke="#34d399" stroke-width="1.2" opacity="0.55"/>
+  <g transform="translate(760, 470)">
+    <text x="0" y="0"  class="mono" fill="#34d399" font-size="10" letter-spacing="3" font-weight="700">FLORIDA, US  ·  27° N</text>
+    <text x="0" y="20" class="serif ink" font-size="18" font-weight="500">Indian River State College</text>
+    <text x="0" y="38" class="mono muted" font-size="12">AI Instructor</text>
+  </g>
+
+  <line x1="60" y1="520" x2="1140" y2="520" stroke="#f3ead8" stroke-width="0.6" opacity="0.18"/>
+  <text x="60"   y="544" class="mono muted" font-size="11" letter-spacing="3">3 COUNTRIES  ·  5 ROLES  ·  3 CITIES  ·  1 RESEARCH MISSION</text>
+  <text x="1140" y="544" class="mono" fill="#f87171" font-size="11" letter-spacing="3" text-anchor="end" font-weight="700">CN  ·  PK  ·  US</text>
+</svg>
