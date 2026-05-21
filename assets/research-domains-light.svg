@@ -1,134 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" width="1200" height="540" role="img" aria-label="Research domains: Autonomous AI, Energy Systems, Nonlinear Control, Applied AI">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 720" width="1320" height="720" role="img" aria-label="research --tree">
   <defs>
     <style>
-      .serif { font-family: ui-serif, Georgia, "Times New Roman", serif; }
-      .mono  { font-family: ui-monospace, "SF Mono", Menlo, Consolas, "Courier New", monospace; }
+      .mono { font-family: ui-monospace, "JetBrains Mono", "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 14px; }
       .ink     { fill: #0f0e0d; }
-      .muted   { fill: #0f0e0d; opacity: 0.62; }
-      .faint   { fill: #0f0e0d; opacity: 0.35; }
-      .paper   { fill: #fef9ed; }
-      .card    { fill: #fffdf3; stroke: #0f0e0d; stroke-opacity: 0.10; stroke-width: 1; }
-
-      .pulse-a { animation: pulse-a 2.4s ease-in-out infinite; }
-      @keyframes pulse-a { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
-
-      .spin { animation: spin 14s linear infinite; transform-origin: 60px 60px; }
-      @keyframes spin { to { transform: rotate(360deg); } }
+      .muted   { fill: #0f0e0d; opacity: 0.50; }
+      .amber   { fill: #d97706; }
+      .crimson { fill: #dc2626; }
+      .jade    { fill: #059669; }
+      .cyan    { fill: #0891b2; }
+      .gold    { fill: #ca8a04; }
     </style>
   </defs>
 
-  <rect width="1200" height="540" fill="#fef9ed"/>
+  <rect width="1320" height="720" fill="#fef9ed"/>
 
-  <text x="60" y="36" class="mono crimson" fill="#dc2626" font-size="12" letter-spacing="5" font-weight="700">§ 02</text>
-  <text x="98" y="36" class="mono muted" font-size="12" letter-spacing="5">RESEARCH DOMAINS</text>
-  <line x1="60" y1="50" x2="1140" y2="50" stroke="#0f0e0d" stroke-width="0.6" opacity="0.20"/>
+  <rect x="20" y="20" width="1280" height="34" fill="#f3ead8" stroke="#0f0e0d" stroke-opacity="0.15" stroke-width="1"/>
+  <circle cx="42" cy="37" r="6" fill="#dc2626"/>
+  <circle cx="62" cy="37" r="6" fill="#ca8a04"/>
+  <circle cx="82" cy="37" r="6" fill="#059669"/>
+  <text x="660" y="42" class="mono muted" font-size="12" text-anchor="middle">~ tree --color --depth 2 research/</text>
+  <text x="1270" y="42" class="mono muted" font-size="12" text-anchor="end">tsinghua-sigs · 22.5° N</text>
 
-  <!-- CARD 1 · AUTONOMOUS AI · crimson -->
-  <g transform="translate(60, 78)">
-    <rect x="0" y="0" width="540" height="206" class="card" rx="2"/>
-    <rect x="0" y="0" width="6" height="206" fill="#dc2626"/>
-    <text x="24" y="34" class="mono" fill="#dc2626" font-size="11" letter-spacing="4" font-weight="700">01 · CRIMSON</text>
-    <text x="24" y="74" class="serif ink" font-size="30" font-weight="500">Autonomous &amp; Agentic AI</text>
-    <text x="24" y="108" class="mono muted" font-size="12.5" letter-spacing="0.5">multi-agent LLM negotiation and orchestration</text>
-    <text x="24" y="128" class="mono muted" font-size="12.5" letter-spacing="0.5">MCP tool-use, memory, planning frameworks</text>
-    <text x="24" y="148" class="mono muted" font-size="12.5" letter-spacing="0.5">LLM-driven decisions for real-time energy systems</text>
-    <text x="24" y="168" class="mono muted" font-size="12.5" letter-spacing="0.5">AI resilience &amp; self-healing autonomous recovery</text>
+  <text x="40" y="92" class="mono"><tspan class="amber" font-weight="700">naghmash@tsinghua-sigs</tspan><tspan class="muted">:</tspan><tspan class="cyan">~</tspan><tspan class="muted">$</tspan> <tspan class="ink">tree --color --legend research/</tspan></text>
 
-    <!-- multi-agent node illustration -->
-    <g transform="translate(420, 105)">
-      <line x1="0"   y1="0"   x2="50"  y2="-30" stroke="#dc2626" stroke-width="1.4" opacity="0.45"/>
-      <line x1="50"  y1="-30" x2="100" y2="0"   stroke="#dc2626" stroke-width="1.4" opacity="0.45"/>
-      <line x1="0"   y1="0"   x2="100" y2="0"   stroke="#dc2626" stroke-width="1.4" opacity="0.45"/>
-      <line x1="50"  y1="-30" x2="50"  y2="40"  stroke="#dc2626" stroke-width="1.4" opacity="0.45"/>
-      <line x1="0"   y1="0"   x2="50"  y2="40"  stroke="#dc2626" stroke-width="1.4" opacity="0.45"/>
-      <line x1="100" y1="0"   x2="50"  y2="40"  stroke="#dc2626" stroke-width="1.4" opacity="0.45"/>
-      <circle cx="0"   cy="0"   r="9" fill="#dc2626"/>
-      <circle cx="100" cy="0"   r="9" fill="#dc2626" class="pulse-a"/>
-      <circle cx="50"  cy="-30" r="9" fill="#dc2626"/>
-      <circle cx="50"  cy="40"  r="9" fill="#dc2626"/>
-    </g>
-    <text x="516" y="194" class="mono faint" font-size="9" letter-spacing="2" text-anchor="end">MULTI-AGENT GRAPH</text>
-  </g>
+  <text x="40" y="128" class="mono ink" font-weight="700">research/</text>
 
-  <!-- CARD 2 · ENERGY · amber -->
-  <g transform="translate(620, 78)">
-    <rect x="0" y="0" width="520" height="206" class="card" rx="2"/>
-    <rect x="0" y="0" width="6" height="206" fill="#d97706"/>
-    <text x="24" y="34" class="mono" fill="#d97706" font-size="11" letter-spacing="4" font-weight="700">02 · AMBER</text>
-    <text x="24" y="74" class="serif ink" font-size="30" font-weight="500">Energy &amp; Smart Infrastructure</text>
-    <text x="24" y="108" class="mono muted" font-size="12.5" letter-spacing="0.5">offshore AI datacenter microgrids on marine renewables</text>
-    <text x="24" y="128" class="mono muted" font-size="12.5" letter-spacing="0.5">DC / AC microgrid &amp; nanogrid energy management</text>
-    <text x="24" y="148" class="mono muted" font-size="12.5" letter-spacing="0.5">IoT utility monitoring at scale (LoRaWAN, edge compute)</text>
-    <text x="24" y="168" class="mono muted" font-size="12.5" letter-spacing="0.5">MILP + LP hierarchical optimization for real-time dispatch</text>
+  <text x="40" y="160" class="mono"><tspan class="muted">├── </tspan><tspan class="crimson" font-weight="700">01 · autonomous_ai/</tspan>            <tspan class="muted">[</tspan><tspan class="jade">active</tspan><tspan class="muted">]   [</tspan><tspan class="crimson">crimson</tspan><tspan class="muted">]</tspan></text>
+  <text x="40" y="184" class="mono"><tspan class="muted">│   ├── </tspan><tspan class="ink">multi-agent LLM negotiation and orchestration</tspan></text>
+  <text x="40" y="208" class="mono"><tspan class="muted">│   ├── </tspan><tspan class="ink">MCP-based tool use · memory · planning frameworks</tspan></text>
+  <text x="40" y="232" class="mono"><tspan class="muted">│   ├── </tspan><tspan class="ink">LLM-driven decisions for real-time energy systems</tspan></text>
+  <text x="40" y="256" class="mono"><tspan class="muted">│   └── </tspan><tspan class="ink">AI resilience · self-healing · autonomous recovery</tspan></text>
+  <text x="40" y="280" class="mono muted">│</text>
 
-    <!-- bolt + grid illustration -->
-    <g transform="translate(380, 80)">
-      <g opacity="0.35">
-        <line x1="0"  y1="0" x2="0"  y2="80" stroke="#d97706" stroke-width="1"/>
-        <line x1="20" y1="0" x2="20" y2="80" stroke="#d97706" stroke-width="1"/>
-        <line x1="40" y1="0" x2="40" y2="80" stroke="#d97706" stroke-width="1"/>
-        <line x1="60" y1="0" x2="60" y2="80" stroke="#d97706" stroke-width="1"/>
-        <line x1="80" y1="0" x2="80" y2="80" stroke="#d97706" stroke-width="1"/>
-        <line x1="100" y1="0" x2="100" y2="80" stroke="#d97706" stroke-width="1"/>
-        <line x1="0" y1="0"  x2="100" y2="0"  stroke="#d97706" stroke-width="1"/>
-        <line x1="0" y1="20" x2="100" y2="20" stroke="#d97706" stroke-width="1"/>
-        <line x1="0" y1="40" x2="100" y2="40" stroke="#d97706" stroke-width="1"/>
-        <line x1="0" y1="60" x2="100" y2="60" stroke="#d97706" stroke-width="1"/>
-        <line x1="0" y1="80" x2="100" y2="80" stroke="#d97706" stroke-width="1"/>
-      </g>
-      <path d="M 58 4 L 42 42 L 56 42 L 44 76 L 76 32 L 58 32 Z" fill="#d97706" class="pulse-a"/>
-    </g>
-    <text x="496" y="194" class="mono faint" font-size="9" letter-spacing="2" text-anchor="end">OFFSHORE MICROGRID</text>
-  </g>
+  <text x="40" y="312" class="mono"><tspan class="muted">├── </tspan><tspan class="amber" font-weight="700">02 · energy_systems/</tspan>           <tspan class="muted">[</tspan><tspan class="jade">active</tspan><tspan class="muted">]   [</tspan><tspan class="amber">amber</tspan><tspan class="muted">]</tspan></text>
+  <text x="40" y="336" class="mono"><tspan class="muted">│   ├── </tspan><tspan class="ink">offshore AI datacenter microgrids (marine renewables)</tspan></text>
+  <text x="40" y="360" class="mono"><tspan class="muted">│   ├── </tspan><tspan class="ink">DC/AC microgrid &amp; nanogrid energy management</tspan></text>
+  <text x="40" y="384" class="mono"><tspan class="muted">│   ├── </tspan><tspan class="ink">IoT utility monitoring at scale (LoRaWAN · edge compute)</tspan></text>
+  <text x="40" y="408" class="mono"><tspan class="muted">│   └── </tspan><tspan class="ink">MILP + LP hierarchical optimization (real-time dispatch)</tspan></text>
+  <text x="40" y="432" class="mono muted">│</text>
 
-  <!-- CARD 3 · CONTROL · cyan -->
-  <g transform="translate(60, 304)">
-    <rect x="0" y="0" width="540" height="206" class="card" rx="2"/>
-    <rect x="0" y="0" width="6" height="206" fill="#0891b2"/>
-    <text x="24" y="34" class="mono" fill="#0891b2" font-size="11" letter-spacing="4" font-weight="700">03 · CYAN</text>
-    <text x="24" y="74" class="serif ink" font-size="30" font-weight="500">Nonlinear Control Theory</text>
-    <text x="24" y="108" class="mono muted" font-size="12.5" letter-spacing="0.5">sliding mode (SMC · FTSMC · NSFTSMC) controllers</text>
-    <text x="24" y="128" class="mono muted" font-size="12.5" letter-spacing="0.5">finite-time and fixed-time convergence design</text>
-    <text x="24" y="148" class="mono muted" font-size="12.5" letter-spacing="0.5">Lyapunov stability for nonlinear dynamical systems</text>
-    <text x="24" y="168" class="mono muted" font-size="12.5" letter-spacing="0.5">MPC, backstepping, passivity-based, adaptive robust</text>
+  <text x="40" y="464" class="mono"><tspan class="muted">├── </tspan><tspan class="cyan" font-weight="700">03 · nonlinear_control/</tspan>        <tspan class="muted">[</tspan><tspan class="gold">signature</tspan><tspan class="muted">] [</tspan><tspan class="cyan">cyan</tspan><tspan class="muted">]</tspan></text>
+  <text x="40" y="488" class="mono"><tspan class="muted">│   ├── </tspan><tspan class="ink">sliding mode control: </tspan><tspan class="cyan" font-weight="700">SMC · FTSMC · NSFTSMC</tspan></text>
+  <text x="40" y="512" class="mono"><tspan class="muted">│   ├── </tspan><tspan class="ink">finite-time / fixed-time convergence controllers</tspan></text>
+  <text x="40" y="536" class="mono"><tspan class="muted">│   ├── </tspan><tspan class="ink">Lyapunov stability for nonlinear dynamical systems</tspan></text>
+  <text x="40" y="560" class="mono"><tspan class="muted">│   └── </tspan><tspan class="ink">MPC · backstepping · passivity-based · adaptive robust</tspan></text>
+  <text x="40" y="584" class="mono muted">│</text>
 
-    <!-- damped oscillation illustration -->
-    <g transform="translate(370, 130)">
-      <line x1="0" y1="0" x2="150" y2="0" stroke="#0891b2" stroke-width="0.4" opacity="0.4" stroke-dasharray="2 3"/>
-      <path d="M 0 0 C 8 -38, 16 -38, 24 0
-               S 40 32, 48 0
-               S 64 -22, 72 0
-               S 88 18, 96 0
-               S 112 -10, 120 0
-               S 136 6, 144 0
-               L 150 0"
-            fill="none" stroke="#0891b2" stroke-width="2"/>
-      <circle cx="150" cy="0" r="4" fill="#0891b2" class="pulse-a"/>
-    </g>
-    <text x="516" y="194" class="mono faint" font-size="9" letter-spacing="2" text-anchor="end">SLIDING-MODE DECAY</text>
-  </g>
+  <text x="40" y="616" class="mono"><tspan class="muted">└── </tspan><tspan class="jade" font-weight="700">04 · applied_ai/</tspan>               <tspan class="muted">[</tspan><tspan class="jade">shipped</tspan><tspan class="muted">]  [</tspan><tspan class="jade">jade</tspan><tspan class="muted">]</tspan></text>
+  <text x="40" y="640" class="mono"><tspan class="muted">    ├── </tspan><tspan class="ink">XAI for power-system fault detection &amp; maintenance</tspan></text>
+  <text x="40" y="664" class="mono"><tspan class="muted">    ├── </tspan><tspan class="ink">computer vision for industrial safety &amp; anomaly detection</tspan></text>
+  <text x="40" y="688" class="mono"><tspan class="muted">    └── </tspan><tspan class="ink">GPU-accelerated inference (NVIDIA L40 · RTX 4070 Ti)</tspan></text>
 
-  <!-- CARD 4 · APPLIED AI · jade -->
-  <g transform="translate(620, 304)">
-    <rect x="0" y="0" width="520" height="206" class="card" rx="2"/>
-    <rect x="0" y="0" width="6" height="206" fill="#059669"/>
-    <text x="24" y="34" class="mono" fill="#059669" font-size="11" letter-spacing="4" font-weight="700">04 · JADE</text>
-    <text x="24" y="74" class="serif ink" font-size="30" font-weight="500">Explainable &amp; Applied AI</text>
-    <text x="24" y="108" class="mono muted" font-size="12.5" letter-spacing="0.5">XAI for power-system fault detection &amp; maintenance</text>
-    <text x="24" y="128" class="mono muted" font-size="12.5" letter-spacing="0.5">computer-vision pipelines for industrial safety</text>
-    <text x="24" y="148" class="mono muted" font-size="12.5" letter-spacing="0.5">GPU-accelerated inference for real-time applications</text>
-    <text x="24" y="168" class="mono muted" font-size="12.5" letter-spacing="0.5">AI readiness frameworks for enterprise &amp; government</text>
-
-    <!-- bar chart illustration -->
-    <g transform="translate(380, 80)">
-      <line x1="0" y1="92" x2="120" y2="92" stroke="#059669" stroke-width="0.6" opacity="0.4"/>
-      <rect x="0"  y="60" width="16" height="32" fill="#059669" opacity="0.45"/>
-      <rect x="22" y="40" width="16" height="52" fill="#059669" opacity="0.65"/>
-      <rect x="44" y="20" width="16" height="72" fill="#059669" opacity="0.85"/>
-      <rect x="66" y="48" width="16" height="44" fill="#059669" opacity="0.55"/>
-      <rect x="88" y="14" width="16" height="78" fill="#059669" class="pulse-a"/>
-    </g>
-    <text x="496" y="194" class="mono faint" font-size="9" letter-spacing="2" text-anchor="end">DETECTION CONFIDENCE</text>
-  </g>
+  <text x="1280" y="712" class="mono muted" font-size="11" text-anchor="end">4 domains · 30+ papers · h-index 17 · 1,000+ citations</text>
 </svg>

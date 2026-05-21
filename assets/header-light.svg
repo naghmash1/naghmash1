@@ -1,129 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480" role="img" aria-label="Dr. Naghmash Ali — Research Scientist, Educator, Entrepreneur">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 780" width="1320" height="780" role="img" aria-label="naghmash@tsinghua-sigs — neofetch">
   <defs>
-    <radialGradient id="burst-l" cx="80%" cy="20%" r="55%">
-      <stop offset="0%"  stop-color="#fb923c" stop-opacity="0.55"/>
-      <stop offset="45%" stop-color="#dc2626" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#dc2626" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="burst-l-2" cx="10%" cy="95%" r="50%">
-      <stop offset="0%"  stop-color="#059669" stop-opacity="0.32"/>
-      <stop offset="60%" stop-color="#0891b2" stop-opacity="0.10"/>
-      <stop offset="100%" stop-color="#0891b2" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="rule-l" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#d97706"/>
-      <stop offset="55%" stop-color="#dc2626"/>
-      <stop offset="100%" stop-color="#059669"/>
-    </linearGradient>
-    <pattern id="dots-l" x="0" y="0" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="11" cy="11" r="0.8" fill="#0f0e0d" opacity="0.10"/>
-    </pattern>
     <style>
-      .serif { font-family: ui-serif, Georgia, "Times New Roman", serif; }
-      .mono  { font-family: ui-monospace, "SF Mono", Menlo, Consolas, "Courier New", monospace; }
+      .mono { font-family: ui-monospace, "JetBrains Mono", "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 14px; }
+      .ascii { font-family: ui-monospace, "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0; }
+      .lg   { font-size: 16px; font-weight: 700; }
       .ink     { fill: #0f0e0d; }
-      .paper   { fill: #fef9ed; }
+      .muted   { fill: #0f0e0d; opacity: 0.50; }
       .amber   { fill: #d97706; }
       .crimson { fill: #dc2626; }
       .jade    { fill: #059669; }
       .cyan    { fill: #0891b2; }
       .gold    { fill: #ca8a04; }
-      .muted   { fill: #0f0e0d; opacity: 0.55; }
-      .faint   { fill: #0f0e0d; opacity: 0.32; }
 
-      .wave { stroke-dasharray: 1400; stroke-dashoffset: 1400; animation: draw 3s ease-out 0.2s forwards; }
+      .blink { animation: blink 1.05s steps(2) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+
+      .wave { stroke-dasharray: 600; stroke-dashoffset: 600; animation: draw 2.5s ease-out 0.3s forwards; }
       @keyframes draw { to { stroke-dashoffset: 0; } }
 
-      .pulse-dot { animation: pulse 2.2s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
-      @keyframes pulse {
-        0%, 100% { opacity: 1; transform: scale(1); }
-        50%      { opacity: 0.45; transform: scale(0.7); }
-      }
-
-      .fade-in { opacity: 0; animation: fadein 1.6s ease-out 0.8s forwards; }
-      @keyframes fadein { to { opacity: 1; } }
+      .pulse-dot { animation: pulse 2s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.4; transform: scale(0.7); } }
     </style>
   </defs>
 
-  <rect width="1200" height="480" fill="#fef9ed"/>
-  <rect width="1200" height="480" fill="url(#dots-l)"/>
-  <rect width="1200" height="480" fill="url(#burst-l)"/>
-  <rect width="1200" height="480" fill="url(#burst-l-2)"/>
+  <rect width="1320" height="780" fill="#fef9ed"/>
 
-  <line x1="60" y1="58"  x2="1140" y2="58"  stroke="#0f0e0d" stroke-width="0.6" opacity="0.25"/>
-  <text x="60"   y="46" class="mono muted"   font-size="12" letter-spacing="3.5">DOSSIER · 2026 · VOL. 1</text>
-  <text x="600"  y="46" class="mono crimson" font-size="12" letter-spacing="3.5" text-anchor="middle">FIELD STATION</text>
-  <text x="1140" y="46" class="mono muted"   font-size="12" letter-spacing="3.5" text-anchor="end">22.5431° N · SHENZHEN</text>
+  <rect x="20" y="20" width="1280" height="34" fill="#f3ead8" stroke="#0f0e0d" stroke-opacity="0.15" stroke-width="1"/>
+  <circle cx="42"  cy="37" r="6" fill="#dc2626"/>
+  <circle cx="62"  cy="37" r="6" fill="#ca8a04"/>
+  <circle cx="82"  cy="37" r="6" fill="#059669"/>
+  <text x="660" y="42" class="mono muted" font-size="12" text-anchor="middle">~ /usr/bin/naghmash  ·  fastfetch</text>
+  <text x="1270" y="42" class="mono muted" font-size="12" text-anchor="end">tsinghua-sigs · 22.5° N</text>
 
-  <text x="60" y="108" class="mono crimson" font-size="14" letter-spacing="6" font-weight="700">CLASSIFIED · OPEN SOURCE</text>
-
-  <text x="60" y="244" class="serif ink" font-size="118" font-weight="500" letter-spacing="-2">Naghmash Ali</text>
-  <text x="884" y="244" class="mono amber" font-size="22" letter-spacing="2" font-weight="600">, PhD</text>
-
-  <g class="fade-in">
-    <rect x="60"  y="270" width="120" height="4" fill="#d97706"/>
-    <rect x="180" y="270" width="80"  height="4" fill="#dc2626"/>
-    <rect x="260" y="270" width="60"  height="4" fill="#059669"/>
-    <rect x="320" y="270" width="40"  height="4" fill="#0891b2"/>
-  </g>
-
-  <text x="60" y="310" class="mono ink"   font-size="17" letter-spacing="5" font-weight="600">RESEARCH SCIENTIST  ·  EDUCATOR  ·  ENTREPRENEUR</text>
-  <text x="60" y="338" class="mono muted" font-size="14" letter-spacing="2.5">Tsinghua SIGS  ·  CyberGen Inc.  ·  Qubit Dynamics  ·  Indian River State College</text>
-
-  <g transform="translate(740, 90)">
-    <rect x="0" y="0" width="400" height="170" fill="#fef9ed" stroke="#0f0e0d" stroke-width="0.7" opacity="0.92"/>
-    <text x="12" y="-8" class="mono muted" font-size="10" letter-spacing="2.5">FIG. 1 ·  SLIDING-MODE CONVERGENCE  ·  s → 0</text>
-
-    <line x1="0" y1="85" x2="400" y2="85" stroke="#0f0e0d" stroke-width="0.4" opacity="0.35" stroke-dasharray="3 5"/>
-
-    <text x="6"   y="20" class="mono faint" font-size="9">+A</text>
-    <text x="6"   y="155" class="mono faint" font-size="9">−A</text>
-    <text x="386" y="167" class="mono faint" font-size="9" text-anchor="end">t →</text>
-
-    <path class="wave"
-          d="M 0 85
-             C 16 18, 32 18, 48 85
-             S 80 152, 96 85
-             S 128 25, 144 85
-             S 176 145, 192 85
-             S 224 45, 240 85
-             S 272 125, 288 85
-             S 320 65, 336 85
-             S 368 105, 384 85
-             L 400 85"
-          fill="none" stroke="#d97706" stroke-width="2.4" stroke-linecap="round"/>
-
-    <circle cx="400" cy="85" r="5" fill="#dc2626" class="pulse-dot"/>
-    <circle cx="400" cy="85" r="11" fill="none" stroke="#dc2626" stroke-width="1" opacity="0.35"/>
-
-    <text x="0"   y="195" class="mono ink"  font-size="11" letter-spacing="1">u(t) = −k · sign(s(x,t))</text>
-    <text x="400" y="195" class="mono jade" font-size="11" letter-spacing="1" text-anchor="end" font-weight="600">finite-time stability ✓</text>
-  </g>
-
-  <g transform="translate(60, 396)">
-    <g>
-      <rect x="0" y="0" width="190" height="30" rx="15" fill="#d97706"/>
-      <text x="95" y="20" class="mono paper" font-size="12" letter-spacing="2.5" text-anchor="middle" font-weight="700">30+ SCI PAPERS</text>
+  <g transform="translate(40, 92)">
+    <g fill="#d97706">
+      <text x="0" y="0"   class="ascii" xml:space="preserve">                . . . . . . . . . .                </text>
+      <text x="0" y="18"  class="ascii" xml:space="preserve">            . , : ; + + + + + ; : , .              </text>
+      <text x="0" y="36"  class="ascii" xml:space="preserve">         . , ; * o o O O O o o * ; , .             </text>
+      <text x="0" y="54"  class="ascii" xml:space="preserve">       . : * o O O @ @ @ @ @ O O o * : .            </text>
+      <text x="0" y="72"  class="ascii" xml:space="preserve">      . ; o O @ @ # # # # # # # @ @ O o ; .         </text>
+      <text x="0" y="90"  class="ascii" xml:space="preserve">     , * O @ @ # # = = = = = # # # @ @ O * ,        </text>
+      <text x="0" y="108" class="ascii" xml:space="preserve">    . ; O @ # # = = ▲ ▲ ▲ ▲ ▲ = = # # @ O ; .       </text>
+      <text x="0" y="126" class="ascii" xml:space="preserve">    , * @ # = = ▲ ▲ █ █ █ ▲ ▲ ▲ = = # @ * ,         </text>
+      <text x="0" y="144" class="ascii" xml:space="preserve">    ; O @ # = ▲ ▲ █ █ ▓ ▓ ▓ █ █ ▲ ▲ = # @ O ;       </text>
+      <text x="0" y="162" class="ascii" xml:space="preserve">    , * @ # = ▲ ▲ █ ▓ ▓ ░ ▓ ▓ █ ▲ ▲ = # @ * ,       </text>
+      <text x="0" y="180" class="ascii" xml:space="preserve">    . ; O @ # = ▲ ▲ █ ▓ ▓ ▓ █ ▲ ▲ ▲ = # @ O ; .     </text>
+      <text x="0" y="198" class="ascii" xml:space="preserve">     , * O @ @ # # = = ▲ ▲ ▲ = = # # @ @ O * ,      </text>
+      <text x="0" y="216" class="ascii" xml:space="preserve">      . ; o O @ @ # # # = = = # # @ @ @ O o ; .     </text>
+      <text x="0" y="234" class="ascii" xml:space="preserve">       . : * o O O @ @ @ @ @ @ @ O O o * : .        </text>
+      <text x="0" y="252" class="ascii" xml:space="preserve">         . , ; * o o O O O O O o o * ; , .          </text>
+      <text x="0" y="270" class="ascii" xml:space="preserve">            . , : ; + + + + + ; : , .               </text>
+      <text x="0" y="288" class="ascii" xml:space="preserve">                . . . . . . . . . .                 </text>
     </g>
-    <g transform="translate(200, 0)">
-      <rect x="0" y="0" width="150" height="30" rx="15" fill="#dc2626"/>
-      <text x="75" y="20" class="mono paper" font-size="12" letter-spacing="2.5" text-anchor="middle" font-weight="700">H-INDEX 17</text>
+
+    <text x="240" y="306" class="mono muted" font-size="11" text-anchor="middle" letter-spacing="1">─ multi-agent core · M = {a₁,a₂,a₃,a₄} ─</text>
+
+    <g transform="translate(0, 332)">
+      <text x="0" y="0"  class="ascii crimson" xml:space="preserve">    ┌──── observer ◄────────────────┐</text>
+      <text x="0" y="18" class="ascii crimson" xml:space="preserve">    │                                │</text>
+      <text x="0" y="36" class="ascii cyan"    xml:space="preserve">    ▼                                │</text>
+      <text x="0" y="54" class="ascii"         fill="#d97706" xml:space="preserve">  agent ──► controller ──► plant ────┘</text>
+      <text x="0" y="72" class="ascii jade"    xml:space="preserve">         k·sign(s)         u(t)</text>
     </g>
-    <g transform="translate(360, 0)">
-      <rect x="0" y="0" width="195" height="30" rx="15" fill="#059669"/>
-      <text x="97.5" y="20" class="mono paper" font-size="12" letter-spacing="2.5" text-anchor="middle" font-weight="700">1,000+ CITATIONS</text>
+
+    <g transform="translate(0, 432)">
+      <text x="0" y="0" class="mono muted" font-size="11" letter-spacing="1">─ sliding-mode convergence · s → 0 ─</text>
+      <line x1="0" y1="46" x2="480" y2="46" stroke="#0f0e0d" stroke-width="0.4" opacity="0.25" stroke-dasharray="3 5"/>
+      <path class="wave"
+            d="M 0 46
+               C 18 4, 36 4, 54 46
+               S 90 88, 108 46
+               S 144 12, 162 46
+               S 198 80, 216 46
+               S 252 24, 270 46
+               S 306 68, 324 46
+               S 360 38, 378 46
+               S 414 54, 432 46
+               L 480 46"
+            fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="480" cy="46" r="4" fill="#dc2626" class="pulse-dot"/>
+      <text x="0"   y="86" class="mono jade" font-size="11">u(t) = −k · sign(s(x,t))</text>
+      <text x="480" y="86" class="mono muted" font-size="11" text-anchor="end">finite-time ✓</text>
     </g>
-    <g transform="translate(565, 0)">
-      <rect x="0" y="0" width="125" height="30" rx="15" fill="#0891b2"/>
-      <text x="62.5" y="20" class="mono paper" font-size="12" letter-spacing="2.5" text-anchor="middle" font-weight="700">3 STARTUPS</text>
+
+    <g transform="translate(0, 552)">
+      <text x="0" y="0" class="ascii" fill="#d97706" font-weight="700" xml:space="preserve">  N · A   ⟨ dr. naghmash ali, phd ⟩</text>
+      <text x="0" y="22" class="mono muted" font-size="11">  research scientist · tsinghua sigs · shenzhen</text>
     </g>
   </g>
 
-  <text x="1140" y="416" class="mono ink"   font-size="12" letter-spacing="3" text-anchor="end" font-weight="600">BUILDING AI THAT ENDURES</text>
-  <text x="1140" y="432" class="mono amber" font-size="11" letter-spacing="2" text-anchor="end">→ control · agents · energy</text>
+  <g transform="translate(660, 92)">
 
-  <line x1="60" y1="456"  x2="1140" y2="456"  stroke="#0f0e0d" stroke-width="0.6" opacity="0.25"/>
-  <text x="60"   y="472" class="mono faint" font-size="11" letter-spacing="3">git push origin main</text>
-  <text x="1140" y="472" class="mono faint" font-size="11" letter-spacing="3" text-anchor="end">github.com/naghmash1</text>
+    <text x="0" y="0" class="mono lg" xml:space="preserve"><tspan class="amber">naghmash</tspan><tspan class="ink">@</tspan><tspan class="cyan">tsinghua-sigs</tspan><tspan class="muted"> ────────────────────────────────────</tspan></text>
+    <text x="0" y="22" class="mono ink"><tspan class="muted">·</tspan> <tspan class="amber" font-weight="700">OS</tspan>:        <tspan class="ink">macOS · Linux · Cluster (NVIDIA L40 / RTX 4070 Ti)</tspan></text>
+    <text x="0" y="44" class="mono ink"><tspan class="muted">·</tspan> <tspan class="amber" font-weight="700">Uptime</tspan>:    <tspan class="jade">10+ years</tspan> in AI research &amp; control engineering</text>
+    <text x="0" y="66" class="mono ink"><tspan class="muted">·</tspan> <tspan class="amber" font-weight="700">Host</tspan>:      Tsinghua University · SIGS · Shenzhen, CN</text>
+    <text x="0" y="88" class="mono ink"><tspan class="muted">·</tspan> <tspan class="amber" font-weight="700">Kernel</tspan>:    Nonlinear Control + Agentic AI</text>
+    <text x="0" y="110" class="mono ink"><tspan class="muted">·</tspan> <tspan class="amber" font-weight="700">IDE</tspan>:       VSCode · Cursor · MATLAB · Vim · Overleaf</text>
+    <text x="0" y="132" class="mono ink"><tspan class="muted">·</tspan> <tspan class="amber" font-weight="700">Shell</tspan>:     zsh · claude-code · tmux</text>
+
+    <text x="0" y="166" class="mono" xml:space="preserve"><tspan class="crimson" font-weight="700">─ Languages</tspan> <tspan class="muted">─────────────────────────────────────────────</tspan></text>
+    <text x="0" y="188" class="mono ink"><tspan class="muted">·</tspan> <tspan class="crimson" font-weight="700">Programming</tspan>:  <tspan class="ink">Python · MATLAB · R · C++ · JavaScript · Bash</tspan></text>
+    <text x="0" y="210" class="mono ink"><tspan class="muted">·</tspan> <tspan class="crimson" font-weight="700">Computing</tspan>:    <tspan class="ink">LaTeX · TikZ · JSON · YAML · HTML · CSS</tspan></text>
+    <text x="0" y="232" class="mono ink"><tspan class="muted">·</tspan> <tspan class="crimson" font-weight="700">Spoken</tspan>:       <tspan class="ink">English · Urdu · </tspan><tspan class="jade">普通话 (learning)</tspan></text>
+
+    <text x="0" y="266" class="mono" xml:space="preserve"><tspan class="cyan" font-weight="700">─ Research</tspan> <tspan class="muted">──────────────────────────────────────────────</tspan></text>
+    <text x="0" y="288" class="mono ink"><tspan class="muted">·</tspan> <tspan class="cyan" font-weight="700">Autonomous AI</tspan>: <tspan class="ink">Multi-agent LLM negotiation · MCP tooling</tspan></text>
+    <text x="0" y="310" class="mono ink"><tspan class="muted">·</tspan> <tspan class="cyan" font-weight="700">Control</tspan>:       <tspan class="ink">SMC · FTSMC · NSFTSMC · MPC · Lyapunov</tspan></text>
+    <text x="0" y="332" class="mono ink"><tspan class="muted">·</tspan> <tspan class="cyan" font-weight="700">Energy</tspan>:        <tspan class="ink">Offshore AI microgrids · MILP+LP dispatch</tspan></text>
+    <text x="0" y="354" class="mono ink"><tspan class="muted">·</tspan> <tspan class="cyan" font-weight="700">Applied</tspan>:       <tspan class="ink">XAI · computer vision · edge inference</tspan></text>
+
+    <text x="0" y="388" class="mono" xml:space="preserve"><tspan class="jade" font-weight="700">─ Contact</tspan> <tspan class="muted">───────────────────────────────────────────────</tspan></text>
+    <text x="0" y="410" class="mono ink"><tspan class="muted">·</tspan> <tspan class="jade" font-weight="700">Email</tspan>:        <tspan class="ink">naghmash@cybergen.ai</tspan></text>
+    <text x="0" y="432" class="mono ink"><tspan class="muted">·</tspan> <tspan class="jade" font-weight="700">LinkedIn</tspan>:     <tspan class="ink">linkedin.com/in/naghmash</tspan></text>
+    <text x="0" y="454" class="mono ink"><tspan class="muted">·</tspan> <tspan class="jade" font-weight="700">Scholar</tspan>:      <tspan class="ink">scholar.google.com</tspan></text>
+    <text x="0" y="476" class="mono ink"><tspan class="muted">·</tspan> <tspan class="jade" font-weight="700">ResearchGate</tspan>: <tspan class="ink">researchgate.net</tspan></text>
+    <text x="0" y="498" class="mono ink"><tspan class="muted">·</tspan> <tspan class="jade" font-weight="700">GitHub</tspan>:       <tspan class="ink">github.com/naghmash1</tspan></text>
+
+    <text x="0" y="532" class="mono" xml:space="preserve"><tspan class="gold" font-weight="700">─ Publications</tspan> <tspan class="muted">─────────────────────────────────────────</tspan></text>
+    <text x="0" y="554" class="mono ink"><tspan class="muted">·</tspan> <tspan class="gold" font-weight="700">SCI Papers</tspan>:   <tspan class="jade" font-weight="700">30+</tspan>   <tspan class="muted">│</tspan>   <tspan class="gold" font-weight="700">h-index</tspan>:  <tspan class="jade" font-weight="700">17</tspan>   <tspan class="muted">│</tspan>   <tspan class="gold" font-weight="700">Citations</tspan>: <tspan class="jade" font-weight="700">1,000+</tspan></text>
+    <text x="0" y="576" class="mono ink"><tspan class="muted">·</tspan> <tspan class="gold" font-weight="700">Journals</tspan>:     <tspan class="ink">Energy · Applied Energy · CSEE J. Power</tspan></text>
+
+    <text x="0" y="610" class="mono" xml:space="preserve"><tspan class="amber" font-weight="700">─ Affiliations</tspan> <tspan class="muted">─────────────────────────────────────────</tspan></text>
+    <text x="0" y="632" class="mono ink"><tspan class="muted">·</tspan> <tspan class="amber">Tsinghua SIGS         </tspan> <tspan class="ink">Research Scientist</tspan></text>
+    <text x="0" y="654" class="mono ink"><tspan class="muted">·</tspan> <tspan class="amber">CyberGen Inc.         </tspan> <tspan class="ink">Chief Data Scientist</tspan></text>
+    <text x="0" y="676" class="mono ink"><tspan class="muted">·</tspan> <tspan class="amber">Qubit Dynamics        </tspan> <tspan class="ink">Co-founder &amp; CAIO</tspan></text>
+    <text x="0" y="698" class="mono ink"><tspan class="muted">·</tspan> <tspan class="amber">CyberGen Academy      </tspan> <tspan class="ink">Lead AI Instructor</tspan></text>
+
+    <text x="0" y="732" class="mono"><tspan class="amber" font-weight="700">naghmash@tsinghua-sigs</tspan><tspan class="muted">:</tspan><tspan class="cyan">~/research</tspan><tspan class="muted">$</tspan> <tspan class="ink">git push origin main</tspan><tspan class="amber blink">▌</tspan></text>
+  </g>
+
 </svg>
