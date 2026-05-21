@@ -117,7 +117,7 @@
     <text x="0" y="610" class="mono" xml:space="preserve"><tspan class="amber" font-weight="700">─ Affiliations</tspan> <tspan class="muted">─────────────────────────────────────────</tspan></text>
     <text x="0" y="632" class="mono ink"><tspan class="muted">·</tspan> <tspan class="amber">Tsinghua SIGS         </tspan> <tspan class="ink">Research Scientist</tspan></text>
     <text x="0" y="654" class="mono ink"><tspan class="muted">·</tspan> <tspan class="amber">CyberGen Inc.         </tspan> <tspan class="ink">Chief Data Scientist</tspan></text>
-    <text x="0" y="676" class="mono ink"><tspan class="muted">·</tspan> <tspan class="amber">Qubit Dynamics        </tspan> <tspan class="ink">Co-founder &amp; CAIO</tspan></text>
+    <text x="0" y="676" class="mono ink"><tspan class="muted">·</tspan> <tspan class="amber">Qubit Dynamics        </tspan> <tspan class="ink">Co-founder</tspan></text>
     <text x="0" y="698" class="mono ink"><tspan class="muted">·</tspan> <tspan class="amber">CyberGen Academy      </tspan> <tspan class="ink">Lead AI Instructor</tspan></text>
 
     <text x="0" y="732" class="mono"><tspan class="amber" font-weight="700">naghmash@tsinghua-sigs</tspan><tspan class="muted">:</tspan><tspan class="cyan">~/research</tspan><tspan class="muted">$</tspan> <tspan class="ink">git push origin main</tspan><tspan class="amber blink">▌</tspan></text>

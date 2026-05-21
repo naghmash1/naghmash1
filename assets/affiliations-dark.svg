@@ -119,7 +119,7 @@
     <g transform="translate(250, 20)">
       <text x="0" y="0"  class="mono" fill="#fb923c" font-size="11" letter-spacing="2.5" font-weight="700">FAISALABAD, PK  ·  31° N</text>
       <text x="0" y="20" class="mono ink" font-size="14" font-weight="700">Qubit Dynamics</text>
-      <text x="0" y="38" class="mono muted" font-size="12">Co-founder &amp; Chief AI Officer</text>
+      <text x="0" y="38" class="mono muted" font-size="12">Co-founder</text>
     </g>
 
     <!-- Lahore pin (cyan) -->
