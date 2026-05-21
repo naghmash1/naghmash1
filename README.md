@@ -65,52 +65,6 @@ collaborators
 
 &nbsp;
 
-## `$ whoami --map`
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/affiliations-dark.svg">
-  <img alt="affiliations world map — terminal whoami output" src="./assets/affiliations-light.svg" width="100%">
-</picture>
-
-&nbsp;
-
-## `$ ls whitepapers/`
-
-```bash
-naghmash@tsinghua-sigs:~$ ls -la whitepapers/
-
-drwxr-xr-x  cybergen/ai-x-energy/                      3 volume series
- ├── vol.01    Autonomous AI Grids
- ├── vol.02    Offshore AI Compute
- └── vol.03    Agentic AI Resilience
-
-drwxr-xr-x  executive-strategic/
- ├── AI for Leadership — 5-day executive course (CyberGen)
- ├── AI Readiness Framework for Enterprise
- ├── Digital Twins for Industrial Infrastructure
- └── AI Bus Routing & Fleet Intelligence
-```
-
-&nbsp;
-
-## `$ traceroute --impact`
-
-```bash
-naghmash@tsinghua-sigs:~$ traceroute --impact --geo
-
-[ CN ]   tsinghua sigs                  leading AI research at a top-tier
-                                         university · publishing in Q1 journals
-[ PK ]   qubit dynamics + cybergen      building Pakistan's local AI ecosystem
-         academy                         · training the next cohort
-[ US ]   indian river state college     teaching applied AI in Florida
-[ ADV ]  middle east + south asia       advisory on AI strategy for government,
-                                         energy, and transport sectors
-
-  ─ 4 hops · 4 continents · 1 mission ─
-```
-
-&nbsp;
-
 ## `$ cat ~/.contact`
 
 ```bash
