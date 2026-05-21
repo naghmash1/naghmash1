@@ -61,38 +61,8 @@
 
     <text x="240" y="306" class="mono muted" font-size="11" text-anchor="middle" letter-spacing="1">─ multi-agent core · M = {a₁,a₂,a₃,a₄} ─</text>
 
-    <!-- Feedback loop diagram -->
-    <g transform="translate(0, 332)">
-      <text x="0" y="0"  class="ascii crimson" xml:space="preserve">    ┌──── observer ◄────────────────┐</text>
-      <text x="0" y="18" class="ascii crimson" xml:space="preserve">    │                                │</text>
-      <text x="0" y="36" class="ascii cyan"    xml:space="preserve">    ▼                                │</text>
-      <text x="0" y="54" class="ascii"         fill="#fb923c" xml:space="preserve">  agent ──► controller ──► plant ────┘</text>
-      <text x="0" y="72" class="ascii jade"    xml:space="preserve">         k·sign(s)         u(t)</text>
-    </g>
-
-    <!-- Signal trace -->
-    <g transform="translate(0, 432)">
-      <text x="0" y="0" class="mono muted" font-size="11" letter-spacing="1">─ sliding-mode convergence · s → 0 ─</text>
-      <line x1="0" y1="46" x2="480" y2="46" stroke="#f3ead8" stroke-width="0.4" opacity="0.25" stroke-dasharray="3 5"/>
-      <path class="wave"
-            d="M 0 46
-               C 18 4, 36 4, 54 46
-               S 90 88, 108 46
-               S 144 12, 162 46
-               S 198 80, 216 46
-               S 252 24, 270 46
-               S 306 68, 324 46
-               S 360 38, 378 46
-               S 414 54, 432 46
-               L 480 46"
-            fill="none" stroke="#fb923c" stroke-width="2" stroke-linecap="round"/>
-      <circle cx="480" cy="46" r="4" fill="#f87171" class="pulse-dot"/>
-      <text x="0"   y="86" class="mono jade" font-size="11">u(t) = −k · sign(s(x,t))</text>
-      <text x="480" y="86" class="mono muted" font-size="11" text-anchor="end">finite-time ✓</text>
-    </g>
-
     <!-- Signature line -->
-    <g transform="translate(0, 552)">
+    <g transform="translate(0, 360)">
       <text x="0" y="0" class="ascii" fill="#fb923c" font-weight="700" xml:space="preserve">  N · A   ⟨ dr. naghmash ali, phd ⟩</text>
       <text x="0" y="22" class="mono muted" font-size="11">  research scientist · tsinghua sigs · shenzhen</text>
     </g>
