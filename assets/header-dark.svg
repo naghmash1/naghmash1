@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Dr. Naghmash Ali — Research Scientist, Educator, Entrepreneur">
+  <defs>
+    <style>
+      .name      { font-family: ui-serif, Georgia, "Times New Roman", serif; font-weight: 400; }
+      .mono      { font-family: ui-monospace, "SF Mono", Menlo, Consolas, "Courier New", monospace; }
+      .ink       { fill: #f3ead8; }
+      .muted     { fill: #f3ead8; opacity: 0.62; }
+      .faint     { fill: #f3ead8; opacity: 0.42; }
+      .accent    { fill: #fb923c; }
+      .accent-st { stroke: #fb923c; }
+      .rule      { stroke: #f3ead8; stroke-width: 0.6; opacity: 0.30; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" fill="#0b0a08"/>
+
+  <line x1="60"   y1="58"  x2="1140" y2="58"  class="rule"/>
+  <line x1="60"   y1="302" x2="1140" y2="302" class="rule"/>
+
+  <text x="60"   y="46" class="mono muted"        font-size="13" letter-spacing="4">DOSSIER · 2026</text>
+  <text x="1140" y="46" class="mono muted"        font-size="13" letter-spacing="4" text-anchor="end">SHENZHEN · 22.5431° N</text>
+
+  <text x="60"   y="172" class="name ink"         font-size="92" letter-spacing="2">Naghmash Ali</text>
+  <text x="60"   y="206" class="mono faint"       font-size="14" letter-spacing="6">DR.  ·  PH.D.  ·  RESEARCHER  ·  BUILDER</text>
+
+  <line x1="60" y1="232" x2="184" y2="232" class="accent-st" stroke-width="2"/>
+
+  <text x="60"   y="262" class="mono ink"         font-size="17" letter-spacing="5">RESEARCH SCIENTIST  ·  EDUCATOR  ·  ENTREPRENEUR</text>
+  <text x="60"   y="288" class="mono muted"       font-size="14" letter-spacing="2.5">Tsinghua SIGS  ·  CyberGen Inc.  ·  Qubit Dynamics</text>
+
+  <text x="60"   y="328" class="mono muted"       font-size="13" letter-spacing="3.5">30+ SCI PAPERS</text>
+  <text x="350"  y="328" class="mono muted"       font-size="13" letter-spacing="3.5">H-INDEX 17</text>
+  <text x="600"  y="328" class="mono muted"       font-size="13" letter-spacing="3.5">1,000+ CITATIONS</text>
+  <text x="1140" y="328" class="mono accent"      font-size="13" letter-spacing="3.5" text-anchor="end">— BUILDING SYSTEMS THAT ENDURE</text>
+</svg>
