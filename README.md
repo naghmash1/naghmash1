@@ -36,8 +36,9 @@ naghmash@tsinghua-sigs:~$ papers --stats
 
 ┌───────────────────┬──────────┐
 │ sci publications  │  30+     │
-│ h-index           │  17      │
-│ citations         │  1,000+  │
+│ h-index           │  18      │
+│ i10-index         │  23      │
+│ citations         │  1,139   │
 │ startups          │  3       │
 └───────────────────┴──────────┘
 
